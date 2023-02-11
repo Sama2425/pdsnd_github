@@ -1,5 +1,5 @@
 
-
+# this is the beginning of the bikeshare project code
 import time
 import pandas as pd
 import numpy as np
@@ -162,6 +162,8 @@ def user_stats(df,city):                                                        
        print('-'*40)
 
 
+# display the data that the user requested
+
 def display_data(df):
     print(df.head())
 
@@ -174,6 +176,8 @@ def display_data(df):
        start_loc = start_loc + 5
        print(df.iloc[start_loc:start_loc+5])
 
+def programname():
+    print("Programming for Data Science")
 
 
 def main():
