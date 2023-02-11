@@ -162,6 +162,8 @@ def user_stats(df,city):                                                        
        print('-'*40)
 
 
+# display the data that the user requested
+
 def display_data(df):
     print(df.head())
 
@@ -193,5 +195,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-# this is the end of the bikeshare project code
